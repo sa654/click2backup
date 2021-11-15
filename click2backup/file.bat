@@ -7,7 +7,6 @@ echo off
 %backupcmd%"%USERPROFILE%\Favorites"
 %backupcmd%"%USERPROFILE%\videos"
 %backupcmd%"%USERPROFILE%\Desktop"
-%backupcmd%"%USERPROFILE%\Recycle Bin"
 %backupcmd%"%USERPROFILE%\Downloads"
 %backupcmd% "%USERPROFILE%\Documents"
 %backupcmd% "%USERPROFILE%\Pictures"
