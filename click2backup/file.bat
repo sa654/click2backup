@@ -2,7 +2,9 @@
 ::variables
 /min
 SET odrive=%drive:~0,2%
-set backupcmd=mkdir backup | cd backup |xcopy /s /c /d /e /h /i /r /y 
+mkdir backup 
+cd backup
+set backupcmd=xcopy /s /c /d /e /h /i /r /y 
 echo off
 %backupcmd%"%USERPROFILE%\Favorites"
 %backupcmd%"%USERPROFILE%\videos"
